@@ -1,0 +1,294 @@
+html{
+	background:url(../images/bg.png) repeat;
+	font-family:Times New Roman;
+}
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+
+}
+
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+} 
+#header{
+	background-repeat: no-repeat;
+	background-color: white;
+
+	height: 153px;
+}
+#header .logo{
+	width:198px;
+	height:45px;
+	margin:50px 0 0 130px;
+	float:left;
+}
+#header .line1{
+	float:left;
+	width:1px;
+	height:114px;
+	background:url(../images/line1.png) no-repeat;
+	margin-left:50px;
+}
+#header  .cont_tel{
+	float:left;
+	font-size:14px;
+	color:#969690;
+	margin:50px 0 0 40px;
+}
+#header .green{
+	font-size:16px;
+	color:#8ad20d;
+}
+#header .black{
+	font-size:16px;
+	color:#1f1f1f;
+}
+#header .menu{
+	float:right;
+	height:20px;
+	margin-top:70px;
+}
+
+#header .menu ul{
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#header .menu ul li{
+    float:left;
+    position:relative;
+}
+#header .menu a {
+	display: block;
+	color: #1f1f1f;
+	padding:0 20px;
+	margin:0;
+	text-align: center;
+	font-size: 12px;
+}
+#header .menu a:hover {
+	background:url(../images/menu.png) no-repeat;
+	text-decoration:none;
+}
+#left_sb{
+	float:left;
+	width:247px;
+	background:url(../images/bg_laminat.png);
+	background-repeat:repeat;
+	margin-top:30px;
+}
+#left_sb p{
+	margin-left:15px;
+}
+#left_sb a{
+	font-size:12px;
+	color:#f47820;
+}
+#left_sb a:hover{
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+}
+#content{
+	float:right;
+	width:700px;
+}
+#content .orange{
+	float:left;
+	width:22px;
+	height:21px;
+	margin-top:25px;
+}
+#content .serial{
+	float:left;
+	font-size:12px;
+	color:#fff;
+	margin-left:5px;
+	margin-top:25px;
+}
+#content .line2{
+	float:left;
+	width:655px;
+	height:1px;
+	background:url(../images/line2.png) no-repeat;
+	margin-top:15px;
+} 
+#content .bg_parket{
+	float:left;
+	width:339px;
+	height:178px;
+	background:url(../images/bg_parket.png) no-repeat;
+	margin:20px 0 0 -10px;
+}
+#content .parket{
+	width:319px;
+	height:126px;
+	margin:10px;
+}
+#content .see_all a{
+	float:left;
+	margin:5px 0 0 190px;
+	font-size:12px;
+	color:#8ad20d;
+}
+#content .see_all a:hover{
+	float:left;
+	margin:5px 0 0 190px;
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+}
+#content .strelka{
+	float:left;
+	width:8px;
+	height:13px;
+	margin:7px 0 0 15px;
+}
+#content .text_field{
+	float:right;
+	width:300px;
+	margin:25px 0 25px 25px;
+}
+#content .text_green{
+	font-size:12px;
+	color:#8ad20d;
+	text-align:justify;
+}
+#content .text_white{
+	font-size:12px;
+	color:#fff;
+	text-align:justify;
+}
+#content .text{
+	float:left;
+	color:#fff;
+	width:655px;
+	text-align:justify;
+	font-size:12px;
+}
+.line3{
+	float:left;
+	width:950px;
+	height:1px;
+	background: url(../images/line3.png);
+	margin:20px 0 30px 10px;	
+}
+#content .elements{
+	float:left;
+	width:663px;
+	height:145px;
+	background:url(../images/bg_elements.png);
+	margin:10px 0 0 -5px;
+}
+#content .elements ul{
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#content .elements ul li{
+    float:left;
+    position:relative;
+}
+#content .elements a {
+	display: block;
+	margin:9px 3px;
+}
+#content .elements a:hover {
+	outline:none;
+	text-decoration:none;
+}
+#content .charact_text{
+	float:left;
+	color:#fff;
+	width:200px;
+	text-align:justify;
+	font-size:12px;
+}
+#content .charact_text_1{
+	float:left;
+	color:#fff;
+	width:250px;
+	text-align:justify;
+	font-size:12px;
+	margin-left:15px;
+}
+#content .grey{
+	font-size:12px;
+	color:#725d58;
+}
+#content .bg_charact{
+	float:left;
+	width:158px;
+	height:131px;
+	background:url(../images/bg_charact.png);
+	margin:15px 0 0 30px;
+}
+#content .charact{
+	width:136px;
+	height:83px;
+	margin:25px 10px;
+}
+#footer{
+	width:1050px;
+}
+#footer .menu{
+	float:left;
+	width:300px;
+	height:20px;
+}
+#footer .menu ul{
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#footer .menu ul li{
+    float:left;
+    position:relative;
+}
+#footer .menu a {
+	display: block;
+	color: #8ad20d;
+	padding:0 10px;
+	margin:0;
+	text-align: center;
+	font-size: 12px;
+}
+#footer .menu a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+#footer .copy{
+	float:left;
+	font-size:12px;
+	color:#725d58;
+	margin-left:10px;
+}
+#footer .reserved{
+	float:left;
+	font-size:12px;
+	color:#725d58;
+	margin-left:310px;
+}
+#footer .contact_tel{
+	float:left;
+	font-size:12px;
+	color:#725d58;
+	margin-left:250px;
+}
+#footer .phone{
+	margin-left:60px;
+}
+#footer .green{
+	font-size:16px;
+	color:#8ad20d;
+}
+#footer .black{
+	font-size:16px;
+	color:#725d58;
+}
+.clear{
+	clear:both;
+}
